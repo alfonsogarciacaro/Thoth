@@ -10,8 +10,8 @@ module Toast =
     open Fable.Core.JsInterop
     open Fable.PowerPack
 
-    importSideEffects "./css/toast-base.css"
-    importSideEffects "./css/toast-minimal.css"
+    // importSideEffects "./css/toast-base.css"
+    // importSideEffects "./css/toast-minimal.css"
 
     let eventIdentifier = "thoth_elmish_toast_notify_event"
 
